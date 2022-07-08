@@ -1,0 +1,19 @@
+{
+  "name": "custom-json-server",
+  "version": "1.0.0",
+  "description": "Custom json-server",
+  "main": "server.js",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "passport": "^0.6.0",
+    "passport-http": "^0.3.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+
+  },
+  "scripts": {
+    "serve": "node server.js --watch ./json/db.json"
+  }
+}
+
